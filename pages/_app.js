@@ -17,16 +17,7 @@ export default class App extends NextApp {
     )
   }
 }
-import Head from 'next/head'
-import theme from '@hackclub/theme' // or '../lib/theme'
 
-export default ({
-  name = 'Your Company',
-  title = 'Your Project',
-  description = '',
-  image = 'https://yourproject.vercel.app/card.png',
-  url = 'https://yourproject.vercel.app/'
-}) => (
   <Head>
     <title>{title}</title>
     <meta property="og:title" content={title} />
